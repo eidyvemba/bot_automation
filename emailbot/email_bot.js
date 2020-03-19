@@ -1,6 +1,6 @@
-var webdriver = require('selenium-webdriver');
+var webdriver = require('selenium-webdriver'); //npm install selenium-webdriver --save
 var chrome = require('selenium-webdriver/chrome');
-var chromedriver = require('chromedriver');
+var chromedriver = require('chromedriver'); //npm install -g chromedriver or npm install chromedriver --save
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
 var By = webdriver.By;
@@ -33,3 +33,4 @@ for(var i = 0; i <= 5; i++) {
 }
 
 
+//driver.quit();
