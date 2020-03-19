@@ -1,2 +1,2 @@
-# bot_automation
-A simple bots example
+# Bots Automation
+A simple bots with Node JS
